@@ -1,0 +1,102 @@
+
+@media (max-width: 850px) {
+  .hero-container {
+    grid-template-columns: 1fr 0.8fr;
+    gap: 30px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .profile-card {
+    width: 270px;
+  }
+
+  .profile-image-wrapper {
+    height: 290px;
+  }
+
+  .floating-card {
+    right: -10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 5%;
+    width: 90%;
+    padding: 25px;
+    background: #111827;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    flex-direction: column;
+    z-index: 10;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero {
+    padding: 65px 0;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .hero-visual {
+    padding: 0 15px;
+  }
+
+  .profile-card {
+    width: min(320px, 100%);
+  }
+
+  .profile-image-wrapper {
+    height: 340px;
+  }
+
+  .floating-card {
+    right: 0;
+  }
+
+  .section {
+    padding: 65px 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    text-align: center;
+  }
+}
